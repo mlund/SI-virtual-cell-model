@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mlund/template-for-supporting-information/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mlund/SI-virtual-cell-model/HEAD)
 
 # template-for-supporting-information
 
@@ -24,6 +24,6 @@ and make sure all required packages are loaded by issuing the following terminal
 
 ``` bash
     conda env create -f environment.yml
-    source activate my_environment
+    source activate virtualcell
     jupyter-notebook
 ```
