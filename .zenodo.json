@@ -1,6 +1,6 @@
 {
     "title": "Electronic Notebook: Virtual Cell Model for Osmotic Pressure Calculation of Charged Biomolecules",
-    "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results and analysis in the titled scientific paper",
+    "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results and analysis in the above titled scientific work",
     "creators": [
         {
             "name": "Marco Polimeni",
@@ -9,7 +9,7 @@
         },
         {
             "name": "Coralie Pasquier",
-            "affiliation": "Division of Theoretical Chemistry, Department of Chemistry, Lund University, Sweden",
+            "affiliation": "Institut de Chimie Séparative de Marcoule (ICSM), Paris, France",
             "orcid": "0000-0003-2135-4900"
         },
         {
