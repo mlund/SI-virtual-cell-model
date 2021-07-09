@@ -1,20 +1,14 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mlund/SI-virtual-cell-model/HEAD)
 
-# template-for-supporting-information
+# Electronic Notebook: Virtual Cell Model for Osmotic Pressure Calculation of Charged Biomolecules
 
-Template for Notebooks for Supporting Information and Zenodo Deposition.
+This is an electronic notebook for reproducing the simulations and related analysis
+for the scientific paper titled above.
 
-## Layout
+## Directory layout
 
-Description of the directory layout.
-
-- `.zenodo.json` This contains metedata for the Zenodo deposition. When you on github make a new
-  _Release_, this can trigger a Zenodo build. To learn more about the available datafields, see
-  [here](https://developers.zenodo.org/?python#depositions).
-- `README.md` This is the file you're viewing right now. You may want to edit the **Binder** badge above to match your repository.
-- `environment.yml` Defines the required Python packages using conda. It's a good idea to try to set specific versions of your
-  dependencies as their behavior may change in the future.
-  The environment is currently called `my_environment` and you'll likely want to rename it to something less generic.
+- `Monte_Carlo/` Coarse grained one-body and two-body Metropolic Monte Carlo simulations
+- `Monlecular_Dynamics/` Atomistic one-body molecular dynamics simulations with virtual ion-boundary
 
 ## Requirements
 
