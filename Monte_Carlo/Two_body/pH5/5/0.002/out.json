@@ -1,0 +1,246 @@
+{
+  "analysis": [
+    {
+      "density": {
+        "<1/V>": 6.022e-07,
+        "<V>": 1661000.0,
+        "<∛V>": 118.4,
+        "atomic": {
+          "Cl": {
+            "c/M": 0.0059998635036034925
+          }
+        },
+        "molecular": {
+          "protein": {
+            "c/M": 0.0019999545012011686
+          }
+        },
+        "nskip": 100,
+        "nstep": 1000,
+        "samples": 1100,
+        "∛<V>": 118.4
+      }
+    },
+    {
+      "multipole": {
+        "molecules": {
+          "protein": {
+            "C": 0.0,
+            "Z": 3.0,
+            "Z2": 9.0,
+            "μ": 58.025687518702405,
+            "μ²": 3366.980412018091
+          }
+        },
+        "nskip": 100,
+        "nstep": 1000,
+        "samples": 1100
+      }
+    },
+    {
+      "savestate": {
+        "file": "state.json"
+      }
+    },
+    {
+      "xtcfile": {
+        "file": "traj.xtc",
+        "nskip": 100,
+        "nstep": 10000,
+        "samples": 110
+      }
+    },
+    {
+      "systemenergy": {
+        "Cv/kB": 2.0414,
+        "file": "energy.dat",
+        "final": [
+          0.0,
+          1503.1369406646454
+        ],
+        "init": null,
+        "mean": 1502.1,
+        "nskip": 100,
+        "nstep": 1000,
+        "samples": 1100
+      }
+    },
+    {
+      "virtualvolume": {
+        "-ln⟨exp(-dU)⟩": 5.4703e-08,
+        "Pex/Pa": -2251.8,
+        "Pex/kT/Å³": -5.4703e-07,
+        "Pex/mM": -0.90837,
+        "dV": 0.1,
+        "nskip": 100,
+        "nstep": 1,
+        "reference": "doi:10.1063/1.472721",
+        "relative time": 0.165,
+        "samples": 1099900,
+        "scaling": "isotropic"
+      }
+    },
+    {
+      "reactioncoordinate": {
+        "average": 0.0,
+        "file": "Q_total.dat",
+        "nskip": 100,
+        "nstep": 1,
+        "property": "Q",
+        "samples": 1099900,
+        "type": "system"
+      }
+    }
+  ],
+  "compiler": "10.2.0",
+  "energy": [
+    {
+      "hamiltonian": [
+        {
+          "particle-self-energy": {
+            "com": false,
+            "molecules": [
+              "*"
+            ],
+            "relative time": 1.4246892724386055e-05
+          }
+        },
+        {
+          "nonbonded": {
+            "default": [
+              {
+                "coulomb": {
+                  "cutoff": 1.3407807929942596e+154,
+                  "doi": "Premier mémoire sur l’électricité et le magnétisme by Charles-Augustin de Coulomb",
+                  "lB": 7.121420410850907,
+                  "type": "plain"
+                }
+              },
+              {
+                "lennardjones": {
+                  "custom": [
+                    {
+                      "Cl HARG": {
+                        "eps": 0.01,
+                        "sigma": 3.5
+                      }
+                    },
+                    {
+                      "Cl HLYS": {
+                        "eps": 0.01,
+                        "sigma": 4.7
+                      }
+                    },
+                    {
+                      "Cl HNTR": {
+                        "eps": 0.01,
+                        "sigma": 4.7
+                      }
+                    }
+                  ],
+                  "eps": "eps",
+                  "mixing": "lorentz_berthelot",
+                  "sigma": "sigma"
+                }
+              }
+            ],
+            "relative time": 0.5576103900390855
+          }
+        }
+      ]
+    }
+  ],
+  "geometry": {
+    "length": [
+      118.41855290017445,
+      118.41855290017445,
+      118.41855290017445
+    ],
+    "type": "cuboid"
+  },
+  "git revision": "df3f6d2 (2021-05-17)",
+  "groups": [
+    {
+      "protein": {
+        "compressible": false,
+        "index": [
+          0,
+          41
+        ],
+        "size": 42
+      }
+    },
+    {
+      "protein": {
+        "compressible": false,
+        "index": [
+          42,
+          83
+        ],
+        "size": 42
+      }
+    },
+    {
+      "CL": {
+        "compressible": false,
+        "index": [
+          84,
+          89
+        ],
+        "size": 6
+      }
+    }
+  ],
+  "moves": [
+    {
+      "moltransrot": {
+        "acceptance": 0.772,
+        "dir": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dirrot": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "dp": 20.0,
+        "dprot": 1.0,
+        "molecule": "protein",
+        "molid": 0,
+        "moves": 11002063,
+        "relative time": 0.789,
+        "relative time (without energy calc)": 0.0137,
+        "repeat": 10,
+        "√⟨r²⟩": 9.72,
+        "√⟨θ²⟩/°": 14.5
+      }
+    },
+    {
+      "transrot": {
+        "acceptance": 0.856,
+        "dir": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "molecule": "CL",
+        "molid": 1,
+        "moves": 10997937,
+        "relative time": 0.0369,
+        "repeat": 10,
+        "√⟨r²⟩": 26.0
+      }
+    }
+  ],
+  "number of groups": 3,
+  "number of particles": 90,
+  "reactionlist": null,
+  "relative drift": null,
+  "simulation time": {
+    "in minutes": 31.133333333333333,
+    "in seconds": 1868
+  },
+  "temperature": 298.15
+}

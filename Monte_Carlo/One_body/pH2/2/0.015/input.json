@@ -1,0 +1,462 @@
+{
+    "temperature": 298.15,
+    "geometry": {
+        "type": "sphere",
+        "radius": 29.786979063089316
+    },
+    "mcloop": {
+        "macro": 1000,
+        "micro": 10000
+    },
+    "random": {
+        "seed": "hardware"
+    },
+    "energy": [
+        {
+            "nonbonded_coulomblj": {
+                "lennardjones": {
+                    "mixing": "LB",
+                    "custom": {
+                        "Cl HNTR": {
+                            "sigma": 4.7,
+                            "eps": 0.01
+                        },
+                        "Cl HLYS": {
+                            "sigma": 4.7,
+                            "eps": 0.01
+                        },
+                        "Cl HARG": {
+                            "sigma": 3.5,
+                            "eps": 0.01
+                        }
+                    }
+                },
+                "coulomb": {
+                    "type": "plain",
+                    "epsr": 78.7
+                }
+            }
+        }
+    ],
+    "atomlist": [
+        {
+            "Cl": {
+                "mw": 35.45,
+                "sigma": 4.6,
+                "eps": 0.12395,
+                "q": -1,
+                "dp": 50
+            }
+        },
+        {
+            "CTR": {
+                "mw": 16.0,
+                "sigma": 3.13,
+                "eps": 0.12395,
+                "q": -1
+            }
+        },
+        {
+            "HCTR": {
+                "mw": 16.0,
+                "sigma": 3.13,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "NTR": {
+                "mw": 14.0,
+                "sigma": 2.99,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "HNTR": {
+                "mw": 14.0,
+                "sigma": 2.99,
+                "eps": 0.12395,
+                "q": 1
+            }
+        },
+        {
+            "ALA": {
+                "mw": 66.0,
+                "sigma": 5.02,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "ILE": {
+                "mw": 102.0,
+                "sigma": 5.8,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "LEU": {
+                "mw": 102.0,
+                "sigma": 5.8,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "MET": {
+                "mw": 122.0,
+                "sigma": 6.16,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "PHE": {
+                "mw": 138.0,
+                "sigma": 6.41,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "VAL": {
+                "mw": 90.0,
+                "sigma": 5.56,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "PRO": {
+                "mw": 90.0,
+                "sigma": 5.56,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "GLY": {
+                "mw": 54.0,
+                "sigma": 4.69,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "ARG": {
+                "mw": 144.0,
+                "sigma": 6.5,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "HARG": {
+                "mw": 144.0,
+                "sigma": 6.5,
+                "eps": 0.12395,
+                "q": 1
+            }
+        },
+        {
+            "LYS": {
+                "mw": 116.0,
+                "sigma": 6.05,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "HLYS": {
+                "mw": 116.0,
+                "sigma": 6.05,
+                "eps": 0.12395,
+                "q": 1
+            }
+        },
+        {
+            "ASP": {
+                "mw": 110.0,
+                "sigma": 5.94,
+                "eps": 0.12395,
+                "q": -1
+            }
+        },
+        {
+            "HASP": {
+                "mw": 110.0,
+                "sigma": 5.94,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "LASP": {
+                "mw": 110.0,
+                "sigma": 5.94,
+                "eps": 0.12395,
+                "q": 2
+            }
+        },
+        {
+            "GLU": {
+                "mw": 122.0,
+                "sigma": 6.16,
+                "eps": 0.12395,
+                "q": -1
+            }
+        },
+        {
+            "HGLU": {
+                "mw": 122.0,
+                "sigma": 6.16,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "LGLU": {
+                "mw": 122.0,
+                "sigma": 6.16,
+                "eps": 0.12395,
+                "q": 2
+            }
+        },
+        {
+            "GLN": {
+                "mw": 120.0,
+                "sigma": 6.12,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "ASN": {
+                "mw": 108.0,
+                "sigma": 5.91,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "HIS": {
+                "mw": 130.0,
+                "sigma": 6.29,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "HHIS": {
+                "mw": 130.0,
+                "sigma": 6.29,
+                "eps": 0.12395,
+                "q": 1
+            }
+        },
+        {
+            "SER": {
+                "mw": 82.0,
+                "sigma": 5.39,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "THR": {
+                "mw": 94.0,
+                "sigma": 5.64,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "TYR": {
+                "mw": 154.0,
+                "sigma": 6.65,
+                "eps": 0.12395,
+                "q": -1
+            }
+        },
+        {
+            "HTYR": {
+                "mw": 154.0,
+                "sigma": 6.65,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "CYS": {
+                "mw": 103.0,
+                "sigma": 5.72,
+                "eps": 0.12395,
+                "q": -1
+            }
+        },
+        {
+            "HCYS": {
+                "mw": 103.0,
+                "sigma": 5.72,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "CYX": {
+                "mw": 103.0,
+                "sigma": 5.72,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "TRP": {
+                "mw": 176.0,
+                "sigma": 6.95,
+                "eps": 0.12395,
+                "q": 0
+            }
+        },
+        {
+            "H": {
+                "pactivity": 2,
+                "implicit": true
+            }
+        }
+    ],
+    "moleculelist": [
+        {
+            "protein": {
+                "structure": "/lunarc/nobackup/projects/snic2020-6-15/Marco/1_Virtual_Cell_Model/Plectasin/MC/One_body/Charges_eq/Q_eq_pH2.pqr",
+                "insdir": [
+                    0,
+                    0,
+                    0
+                ],
+                "insoffset": [
+                    0,
+                    0,
+                    0
+                ],
+                "keepcharges": true,
+                "rotate": false,
+                "keeppos": false,
+                "rigid": false
+            }
+        },
+        {
+            "CL": {
+                "atoms": [
+                    "Cl"
+                ],
+                "atomic": true
+            }
+        }
+    ],
+    "insertmolecules": [
+        {
+            "protein": {
+                "N": 1,
+                "inactive": false
+            }
+        },
+        {
+            "CL": {
+                "N": 7,
+                "inactive": false
+            }
+        }
+    ],
+    "moves": [
+        {
+            "transrot": {
+                "molecule": "CL",
+                "dir": [
+                    1,
+                    1,
+                    1
+                ],
+                "repeat": 10
+            }
+        }
+    ],
+    "analysis": [
+        {
+            "density": {
+                "nstep": 1000,
+                "nskip": 0
+            }
+        },
+        {
+            "multipole": {
+                "nstep": 1000,
+                "nskip": 0
+            }
+        },
+        {
+            "savestate": {
+                "file": "state.json"
+            }
+        },
+        {
+            "xtcfile": {
+                "file": "traj.xtc",
+                "nstep": 10000,
+                "nskip": 0
+            }
+        },
+        {
+            "systemenergy": {
+                "file": "energy.dat",
+                "nstep": 1000,
+                "nskip": 0
+            }
+        },
+        {
+            "virtualvolume": {
+                "dV": 0.1,
+                "nstep": 1,
+                "nskip": 0
+            }
+        },
+        {
+            "reactioncoordinate": {
+                "file": "Q_total.dat",
+                "nstep": 1,
+                "type": "system",
+                "property": "Q",
+                "nskip": 0
+            }
+        },
+        {
+            "reactioncoordinate": {
+                "file": "Q_protein.dat",
+                "nstep": 1,
+                "type": "molecule",
+                "index": 0,
+                "property": "Q",
+                "nskip": 0
+            }
+        },
+        {
+            "atomprofile": {
+                "file": "Cl_profile.txt",
+                "nstep": 1,
+                "atoms": [
+                    "Cl"
+                ],
+                "origo": [
+                    0,
+                    0,
+                    0
+                ],
+                "dr": 0.2,
+                "charge": false,
+                "nskip": 0
+            }
+        }
+    ]
+}

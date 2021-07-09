@@ -1,0 +1,224 @@
+{
+  "analysis": [
+    {
+      "savestate": {
+        "file": "confout_eq.pqr"
+      }
+    },
+    {
+      "reactioncoordinate": {
+        "average": 2.9363,
+        "file": "Q_protein.dat",
+        "index": 0,
+        "nstep": 1,
+        "property": "Q",
+        "samples": 10000,
+        "type": "molecule"
+      }
+    }
+  ],
+  "compiler": "10.2.0",
+  "energy": [
+    {
+      "hamiltonian": [
+        {
+          "ContainerOverlap": {
+            "relative time": 3.9948623648858864e-05
+          }
+        },
+        {
+          "particle-self-energy": {
+            "com": false,
+            "molecules": [
+              "*"
+            ],
+            "relative time": 0.00031018497202276954
+          }
+        },
+        {
+          "nonbonded": {
+            "default": [
+              {
+                "coulomb": {
+                  "cutoff": 1.3407807929942596e+154,
+                  "doi": "Premier mémoire sur l’électricité et le magnétisme by Charles-Augustin de Coulomb",
+                  "lB": 7.121420410850907,
+                  "type": "plain"
+                }
+              },
+              {
+                "lennardjones": {
+                  "eps": "eps",
+                  "mixing": "lorentz_berthelot",
+                  "sigma": "sigma"
+                }
+              }
+            ],
+            "relative time": 0.05381036718160787
+          }
+        }
+      ]
+    }
+  ],
+  "geometry": {
+    "radius": 30.0,
+    "type": "sphere"
+  },
+  "git revision": "df3f6d2 (2021-05-17)",
+  "groups": [
+    {
+      "protein": {
+        "compressible": false,
+        "index": [
+          0,
+          41
+        ],
+        "size": 42
+      }
+    }
+  ],
+  "montecarlo": {
+    "average potential energy (kT)": 751.9710949901518,
+    "last move": "rcmc"
+  },
+  "moves": [
+    {
+      "rcmc": {
+        "acceptance": 0.0643,
+        "cite": "doi:10/fqcpg3",
+        "moves": 100000,
+        "reactions": {
+          "HASP = ASP + H": {
+            "acceptance -->": 0.998109640831758,
+            "acceptance <--": 0.09544468546637744,
+            "attempts": 6061
+          },
+          "HCTR = CTR + H": {
+            "acceptance -->": 1.0,
+            "acceptance <--": 0.0005270555165144061,
+            "attempts": 5695
+          },
+          "HGLU = GLU + H": {
+            "acceptance -->": 1.0,
+            "acceptance <--": 0.20185029436501262,
+            "attempts": 5716
+          },
+          "HHIS = HIS + H": {
+            "acceptance -->": 0.3065614915740409,
+            "acceptance <--": 0.9970879440885265,
+            "attempts": 7295
+          },
+          "HLYS = LYS + H": {
+            "acceptance -->": 0.00018335166850018335,
+            "acceptance <--": 1.0,
+            "attempts": 5460
+          },
+          "HNTR = NTR + H": {
+            "acceptance -->": 0.0009159186664224216,
+            "acceptance <--": 1.0,
+            "attempts": 5465
+          },
+          "HTYR = TYR + H": {
+            "acceptance -->": 0.0,
+            "acceptance <--": 1.0,
+            "attempts": 5523
+          }
+        },
+        "relative time": 0.898,
+        "relative time (without energy calc)": 0.649,
+        "repeat": 10
+      }
+    }
+  ],
+  "number of groups": 1,
+  "number of particles": 42,
+  "reactionlist": [
+    {
+      "HCTR = CTR + H": {
+        "lnK": -8.450487291288148,
+        "neutral": false,
+        "pK": 3.6699999999999995,
+        "pK'": -1.3300000000000005,
+        "swap_move": true
+      }
+    },
+    {
+      "HASP = ASP + H": {
+        "lnK": -8.450487291288148,
+        "neutral": false,
+        "pK": 3.6699999999999995,
+        "pK'": -1.3300000000000005,
+        "swap_move": true
+      }
+    },
+    {
+      "HGLU = GLU + H": {
+        "lnK": -9.785986645224694,
+        "neutral": false,
+        "pK": 4.249999999999999,
+        "pK'": -0.7500000000000007,
+        "swap_move": true
+      }
+    },
+    {
+      "HHIS = HIS + H": {
+        "lnK": -15.05890650818106,
+        "neutral": false,
+        "pK": 6.54,
+        "pK'": 1.5399999999999996,
+        "swap_move": true
+      }
+    },
+    {
+      "HNTR = NTR + H": {
+        "lnK": -18.420680743952367,
+        "neutral": false,
+        "pK": 7.999999999999999,
+        "pK'": 2.9999999999999996,
+        "swap_move": true
+      }
+    },
+    {
+      "HCYS = CYS + H": {
+        "lnK": -19.687102545099094,
+        "neutral": false,
+        "pK": 8.55,
+        "pK'": 3.5500000000000003,
+        "swap_move": true
+      }
+    },
+    {
+      "HTYR = TYR + H": {
+        "lnK": -22.65743731506141,
+        "neutral": false,
+        "pK": 9.84,
+        "pK'": 4.839999999999999,
+        "swap_move": true
+      }
+    },
+    {
+      "HLYS = LYS + H": {
+        "lnK": -23.94688496713808,
+        "neutral": false,
+        "pK": 10.4,
+        "pK'": 5.4,
+        "swap_move": true
+      }
+    },
+    {
+      "HARG = ARG + H": {
+        "lnK": -27.63102111592855,
+        "neutral": false,
+        "pK": 12.0,
+        "pK'": 6.999999999999999,
+        "swap_move": true
+      }
+    }
+  ],
+  "relative drift": 1.3261148964675829e-15,
+  "simulation time": {
+    "in minutes": 0.0,
+    "in seconds": 0
+  },
+  "temperature": 298.15
+}
