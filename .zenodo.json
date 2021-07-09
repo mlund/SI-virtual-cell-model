@@ -1,29 +1,35 @@
 {
-    "title": "Electronic Notebook: Some title...",
-    "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results presented in ...",
+    "title": "Electronic Notebook: Virtual Cell Model for Osmotic Pressure Calculation of Charged Biomolecules",
+    "description": "This repository contains electronic notebooks (Jupyter) for reproducing the simulation results and analysis in the titled scientific paper",
     "creators": [
+        {
+            "name": "Marco Polimeni",
+            "affiliation": "Division of Theoretical Chemistry, Department of Chemistry, Lund University, Sweden",
+            "orcid": "0000-0002-9670-7232"
+        },
+        {
+            "name": "Coralie Pasquier",
+            "affiliation": "Division of Theoretical Chemistry, Department of Chemistry, Lund University, Sweden",
+            "orcid": "0000-0003-2135-4900"
+        },
         {
             "name": "Mikael Lund",
             "affiliation": "Division of Theoretical Chemistry, Department of Chemistry, Lund University, Sweden",
             "orcid": "0000-0001-8178-8175"
         }
     ],
-    "contributors": [
-        {
-            "name": "Alfons Åberg",
-            "orcid": "0000-0000-0000-0000",
-            "type": "Researcher",
-            "affiliation": "Department of ..."
-        }
-    ],
     "keywords": [
         "reproducible science",
-        "electronic notebooks"
+        "electronic notebooks",
+        "monte carlo",
+        "osmotic pressure",
+        "molecular simulation",
+        "molecular dynamics"
     ],
     "related_identifiers": [
         {
             "scheme": "url",
-            "identifier": "https://github.com/mlund/template-for-supporting-information",
+            "identifier": "https://github.com/mlund/SI-virtual-cell-model",
             "relation": "isSupplementTo"
         },
         {
