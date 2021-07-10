@@ -10,6 +10,7 @@ __pycache__/
 *.xtc
 *.dcd
 *.trr
+*.dat
 
 # vim backup
 *~
