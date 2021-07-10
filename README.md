@@ -10,7 +10,6 @@ the total cell charge.
 While extensively applied in coarse-grained Monte Carlo (MC) simulations of continuum solvent systems, the cell
 model neglects the macro-ion shape anisotropy and details of the surface charge distribution. By comparing one-body
 and two-body coarse-grained Monte Carlo simulations we validate this approximation using a non-spherical macro-ion.
-
 Next, we extend the cell model to all-atom molecular dynamics simulations and show that protein concentration-dependent osmotic pressures can be obtained by confining counter-ions in a virtual, spherical subspace defining the protein number density. Finally, we show the possibility of using specific interaction parameters for the protein-ion and ion-ion interactions, enabling studies of protein concentration-dependent ion-specific effects using merely a single protein molecule.
 
 ## Directory layout
@@ -21,7 +20,7 @@ Next, we extend the cell model to all-atom molecular dynamics simulations and sh
 ## Requirements
 
 To run the Notebooks online, click on the _Launch Binder_ logo above. Alternatively, if you want to run on your own computer,
-install python using e.g. [Miniconda](https://conda.io/miniconda.html) or [Anaconda](https://docs.conda.io))
+install python using e.g. [Miniconda](https://conda.io/miniconda.html) or [Anaconda](https://docs.conda.io)
 and make sure all required packages are loaded by issuing the following terminal commands
 
 ``` bash
