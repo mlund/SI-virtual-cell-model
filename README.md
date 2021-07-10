@@ -2,8 +2,16 @@
 
 # Electronic Notebook: Virtual Cell Model for Osmotic Pressure Calculation of Charged Biomolecules
 
-This is an electronic notebook for reproducing the simulations and related analysis
-for the scientific paper titled above.
+The osmotic pressure of dilute poly-electrolyte solutions containing charged macro-ions as well as counter-ions
+can be computed directly from the particle distribution via the well-known _cell model_.
+Originally derived within the Poisson-Boltzmann mean-field approximation, the cell model describes a poly-electrolyte
+solution considering a single macro-ion centered into a cell, together with counter-ions needed to neutralize
+the total cell charge.
+While extensively applied in coarse-grained Monte Carlo (MC) simulations of continuum solvent systems, the cell
+model neglects the macro-ion shape anisotropy and details of the surface charge distribution. By comparing one-body
+and two-body coarse-grained Monte Carlo simulations we validate this approximation using a non-spherical macro-ion.
+
+Next, we extend the cell model to all-atom molecular dynamics simulations and show that protein concentration-dependent osmotic pressures can be obtained by confining counter-ions in a virtual, spherical subspace defining the protein number density. Finally, we show the possibility of using specific interaction parameters for the protein-ion and ion-ion interactions, enabling studies of protein concentration-dependent ion-specific effects using merely a single protein molecule.
 
 ## Directory layout
 
