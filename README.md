@@ -2,6 +2,9 @@
 
 # Electronic Notebook: Virtual Cell Model for Osmotic Pressure Calculation of Charged Biomolecules
 
+This Electronic Notebook can be used to reproduce the simulations and analysis presented in
+the research paper [Virtual Cell Model for Osmotic Pressure Calculation of Charged Biomolecules](https://dx.doi.org/10.1063/5.0063717) published in _J. Chem. Phys._, 2021.
+
 The osmotic pressure of dilute poly-electrolyte solutions containing charged macro-ions as well as counter-ions
 can be computed directly from the particle distribution via the well-known _cell model_.
 Originally derived within the Poisson-Boltzmann mean-field approximation, the cell model describes a poly-electrolyte
