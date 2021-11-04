@@ -1,5 +1,5 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mlund/SI-virtual-cell-model/HEAD)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5645948.svg)](https://doi.org/10.5281/zenodo.5645947)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5645947.svg)](https://doi.org/10.5281/zenodo.5645947)
 
 # Electronic Notebook: Virtual Cell Model for Osmotic Pressure Calculation of Charged Biomolecules
 
